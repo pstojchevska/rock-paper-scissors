@@ -1,14 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #DC5F00;
+    color: #FFFFFF;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+header {
+    background-color: #373A40;
+    padding: 40px 0;
+    color: #EEEEEE;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1 {
+    text-align: center;
+    letter-spacing: 2px
+}
+
+h3 {
+    margin: 40px 0;
+    text-align: center;
+    font-weight: 100;
+    letter-spacing: 1.2;
+}
+
+h3 + p {
+    font-size: 28px;
+}
+
 .button-container {
-    margin: 20px;
+    margin: 30px;
+    display: flex;
+    justify-content:  center;
+    align-items: center;
 }
 
 button {
     margin: 5px;
     padding: 10px 20px;
-    font-size: 16px;
+    background-color: #686D76;
+    cursor: pointer;
+}
+
+button img {
+    width: 100px;
 }
 
 #results {
     margin-top: 20px;
     font-size: 18px;
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 40px;
 }
